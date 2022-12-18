@@ -34,29 +34,19 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#features"
                   aria-label="Our product"
                   title="Our product"
                   className="font-normal tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 dark:text-white"
                 >
-                  Solutions
+                  Features
                 </a>
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#about"
                   aria-label="Product pricing"
                   title="Product pricing"
-                  className="font-normal tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 dark:text-white"
-                >
-                  Services
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  aria-label="About us"
-                  title="About us"
                   className="font-normal tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 dark:text-white"
                 >
                   About us
@@ -64,19 +54,29 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#testimonials"
                   aria-label="About us"
                   title="About us"
                   className="font-normal tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 dark:text-white"
                 >
-                  Feedback
+                 Testimonials
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#blog"
+                  aria-label="About us"
+                  title="About us"
+                  className="font-normal tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 dark:text-white"
+                >
+                 Blog
                 </a>
               </li>
             </ul>
           </div>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <Switcher/>
+              <Switcher />
             </li>
           </ul>
           <div className="lg:hidden ">
@@ -102,7 +102,7 @@ function Navbar() {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className="absolute top-0 left-0 w-full z-50">
+              <div className="absolute top-0 left-0 z-50 w-full">
                 <div className="p-5 bg-white border dark:border-0 rounded shadow-sm dark:bg-[#1A1C46]">
                   <div className="flex items-center justify-between mb-4">
                     <div>
@@ -141,49 +141,49 @@ function Navbar() {
                           href="/"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-normal tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-normal tracking-wide text-gray-700 transition-colors duration-200 dark:text-white hover:text-deep-purple-accent-400"
                         >
-                       Home
+                          Home
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
+                          href="#features"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-normal tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-normal tracking-wide text-gray-700 transition-colors duration-200 dark:text-white hover:text-deep-purple-accent-400"
                         >
-                        Solutions
+                          Features
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
+                          href="#about"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          className="font-normal tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-normal tracking-wide text-gray-700 transition-colors duration-200 dark:text-white hover:text-deep-purple-accent-400"
                         >
-                         Services
+                          About Us
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
+                          href="#testimonials"
                           aria-label="About us"
                           title="About us"
-                          className="font-normal tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-normal tracking-wide text-gray-700 transition-colors duration-200 dark:text-white hover:text-deep-purple-accent-400"
                         >
-                          About us
+                         Testimonials
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
+                          href="#blog"
                           aria-label="About us"
                           title="About us"
-                          className="font-normal tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-normal tracking-wide text-gray-700 transition-colors duration-200 dark:text-white hover:text-deep-purple-accent-400"
                         >
-                        Feedback
+                          Blog
                         </a>
                       </li>
                       <li>

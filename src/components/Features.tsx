@@ -8,15 +8,20 @@ import OMimg from "../assets/Saly-43.png";
 
 function Features() {
   return (
-    <div className="dark:bg-[#0B0D39]">
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-[#F2FBFC] dark:bg-[#1A1C46] rounded-2xl">
+    <div className="dark:bg-[#0B0D39]" id="features">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="1000"
+        data-aos-once="true"
+        className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-[#F2FBFC] dark:bg-[#1A1C46] rounded-2xl"
+      >
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 ">
           <div className="mx-auto text-center">
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-[#FF9100] uppercase rounded-full bg-[#FF9100] bg-opacity-25">
               features
             </p>
           </div>
-          <h2 className="max-w-lg mb-6 text-3xl text-center font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto dark:text-white">
+          <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-center text-gray-900 sm:text-4xl md:mx-auto dark:text-white">
             Your Dream Template
           </h2>
         </div>
@@ -29,7 +34,7 @@ function Features() {
               <h6 className="mb-2 font-semibold leading-5 text-center dark:text-white">
                 Product Design
               </h6>
-              <p className="mb-3 text-sm text-gray-900 text-center dark:text-white">
+              <p className="mb-3 text-sm text-center text-gray-900 dark:text-white">
                 <ReadMoreReact
                   text={
                     "Startups typically begin by a founder (solo-founder) or co-founders who have a way to solve a problem. The founder of a startup will begin market validation by problem interview, solution interview, and building a minimum viable product (MVP), i.e. a prototype, to develop and validate their business models. The startup process can take a long period of time (by some estimates, three years or longer), and hence sustaining effort is required. Over the long term, sustaining effort is especially challenging because of the high failure rates and uncertain outcomes."
@@ -50,7 +55,7 @@ function Features() {
               <h6 className="mb-2 font-semibold leading-5 text-center dark:text-white">
                 Branding
               </h6>
-              <p className="mb-3 text-sm text-gray-900 text-center dark:text-white">
+              <p className="mb-3 text-sm text-center text-gray-900 dark:text-white">
                 <ReadMoreReact
                   text={
                     "Startups typically begin by a founder (solo-founder) or co-founders who have a way to solve a problem. The founder of a startup will begin market validation by problem interview, solution interview, and building a minimum viable product (MVP), i.e. a prototype, to develop and validate their business models. The startup process can take a long period of time (by some estimates, three years or longer), and hence sustaining effort is required. Over the long term, sustaining effort is especially challenging because of the high failure rates and uncertain outcomes."
@@ -71,7 +76,7 @@ function Features() {
               <h6 className="mb-2 font-semibold leading-5 text-center dark:text-white">
                 Coding & Programming
               </h6>
-              <p className="mb-3 text-sm text-gray-900 text-center dark:text-white">
+              <p className="mb-3 text-sm text-center text-gray-900 dark:text-white">
                 <ReadMoreReact
                   text={
                     "Startups typically begin by a founder (solo-founder) or co-founders who have a way to solve a problem. The founder of a startup will begin market validation by problem interview, solution interview, and building a minimum viable product (MVP), i.e. a prototype, to develop and validate their business models. The startup process can take a long period of time (by some estimates, three years or longer), and hence sustaining effort is required. Over the long term, sustaining effort is especially challenging because of the high failure rates and uncertain outcomes."
@@ -92,7 +97,7 @@ function Features() {
               <h6 className="mb-2 font-semibold leading-5 text-center dark:text-white">
                 Online Marketing
               </h6>
-              <p className="mb-3 text-sm text-gray-900 text-center dark:text-white">
+              <p className="mb-3 text-sm text-center text-gray-900 dark:text-white">
                 <ReadMoreReact
                   text={
                     "Startups typically begin by a founder (solo-founder) or co-founders who have a way to solve a problem. The founder of a startup will begin market validation by problem interview, solution interview, and building a minimum viable product (MVP), i.e. a prototype, to develop and validate their business models. The startup process can take a long period of time (by some estimates, three years or longer), and hence sustaining effort is required. Over the long term, sustaining effort is especially challenging because of the high failure rates and uncertain outcomes."
